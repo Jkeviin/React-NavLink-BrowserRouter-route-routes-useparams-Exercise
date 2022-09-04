@@ -1,38 +1,37 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+*{
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.reyes img{
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+nav{
+  background-color: silver;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+div{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  padding: 7px 10px 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover{
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.activo{
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
